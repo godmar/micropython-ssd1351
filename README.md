@@ -1,3 +1,15 @@
+# wiring
+
+```
+VCC     -> 5V
+GND      
+DIN     -> GP3 (SPIO TX)
+CLK     -> GP2 (SPIO SCK)
+CS      -> GP5
+DC      -> GP6
+RST     -> GP4
+```
+
 # micropython-ssd1351
 MicroPython & CircuitPython SSD1351 OLED Display Driver
 

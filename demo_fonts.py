@@ -7,8 +7,8 @@ from xglcd_font import XglcdFont
 
 def test():
     """Test code."""
-    spi = SPI(2, baudrate=14500000, sck=Pin(18), mosi=Pin(23))
-    display = Display(spi, dc=Pin(17), cs=Pin(5), rst=Pin(16))
+    spi = SPI(0, baudrate=14500000, sck=Pin(2), mosi=Pin(3))
+    display = Display(spi, dc=Pin(6), cs=Pin(5), rst=Pin(4))
 
     print("Loading fonts, please wait.")
     arcadepix = XglcdFont('fonts/ArcadePix9x11.c', 9, 11)

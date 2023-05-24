@@ -20,9 +20,9 @@ def test():
         else:
             from machine import Pin, SPI
             cs_pin = Pin(5)
-            dc_pin = Pin(17)
-            rst_pin = Pin(16)
-            spi = SPI(2, baudrate=14500000, sck=Pin(18), mosi=Pin(23))
+            dc_pin = Pin(6)
+            rst_pin = Pin(4)
+            spi = SPI(0, baudrate=14500000, sck=Pin(2), mosi=Pin(3))
 
         # Create the SSD1351 display:
         display = Display(spi, dc=dc_pin, cs=cs_pin, rst=rst_pin)
