@@ -1,5 +1,9 @@
 # wiring
 
+128x128 OLED bought from here:
+https://www.amazon.com/1-5inch-Interface-Raspberry-Examples-Provided/dp/B07D9NVJPZ
+
+
 ```
 VCC     -> 5V
 GND      
